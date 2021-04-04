@@ -1,43 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
 
 .visually-hidden {
-	position: absolute;
-	clip: rect(1px);
-	padding: 0;
-	border: 0;
-	height: 1px;
-	width: 1px;
-	overflow: hidden;
+    position: absolute;
+    clip: rect(1px);
+    padding: 0;
+    border: 0;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
 }
 
 ul {
-	list-style: none;
+    list-style: none;
 }
 
 a {
-	text-decoration: none;
+    text-decoration: none;
     color: inherit;
 }
 
 body {
-	margin: 0;
-	padding: 0;
-	min-width: 1920px;
-	font-family: "Core Sans E", "Arial", sans-serif;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 16px;
-	line-height: 24px;
-	background-color: #3B181E;
+    margin: 0;
+    padding: 0;
+    min-width: 1920px;
+    font-family: "Core Sans E", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    background-color: #3B181E;
     color: #FFFFFF;
 }
 
 .container {
-	width: 1729px;
-	margin: 0 auto;
-	padding: 0;
-	padding-right: 15px;
-	padding-left: 15px;
+    width: 1729px;
+    margin: 0 auto;
+    padding: 0;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 .min-container {
@@ -57,7 +57,6 @@ body {
     justify-content: space-between;
     align-items: center;
     color: #fff;
-
 }
 
 .nav-list {
@@ -91,7 +90,7 @@ body {
     margin: 0;
     padding: 0;
 
-    background-image: url("/img/background.jpg");
+    background-image: url("./img/background.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
